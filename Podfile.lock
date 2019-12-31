@@ -314,7 +314,7 @@ DEPENDENCIES:
   - WordPress-Editor-iOS (~> 1.14.0)
   - WordPressAuthenticator (~> 1.10.6-beta.1)
   - WordPressKit (~> 4.5.5)
-  - WordPressMocks (~> 0.0.6)
+  - WordPressMocks (from `https://github.com/wordpress-mobile/WordPressMocks.git`, branch `add/screenshot-mocks`)
   - WordPressShared (= 1.8.11-beta.1)
   - WordPressUI (from `https://github.com/wordpress-mobile/WordPressUI-iOS`, branch `add/fancy-alert-view-accessibility-identifiers`)
   - WPMediaPicker (~> 1.6.0)
@@ -358,7 +358,6 @@ SPEC REPOS:
     - WordPress-Editor-iOS
     - WordPressAuthenticator
     - WordPressKit
-    - WordPressMocks
     - WordPressShared
     - WPMediaPicker
     - wpxmlrpc
@@ -424,6 +423,9 @@ EXTERNAL SOURCES:
   RNTAztecView:
     :commit: edb3c1311f30e4b6c0685348bd1b712965d706af
     :git: http://github.com/wordpress-mobile/gutenberg-mobile/
+  WordPressMocks:
+    :branch: add/screenshot-mocks
+    :git: https://github.com/wordpress-mobile/WordPressMocks.git
   WordPressUI:
     :branch: add/fancy-alert-view-accessibility-identifiers
     :git: https://github.com/wordpress-mobile/WordPressUI-iOS
@@ -443,6 +445,9 @@ CHECKOUT OPTIONS:
   RNTAztecView:
     :commit: edb3c1311f30e4b6c0685348bd1b712965d706af
     :git: http://github.com/wordpress-mobile/gutenberg-mobile/
+  WordPressMocks:
+    :commit: 460fbaf2392f352a2a1b36709c6e66a59bcd99bc
+    :git: https://github.com/wordpress-mobile/WordPressMocks.git
   WordPressUI:
     :commit: 1d601e1d4e3ef775823a453d4a6ff2024232e81f
     :git: https://github.com/wordpress-mobile/WordPressUI-iOS
@@ -513,7 +518,7 @@ SPEC CHECKSUMS:
   WordPress-Editor-iOS: 508a0581810409b42ac721a32e0264841c31b892
   WordPressAuthenticator: 67901f1b519cf65ccec8a755c3e7044af5039345
   WordPressKit: 8029cb93a89de79442254c346523da11c2706d7b
-  WordPressMocks: 5913bd04586a360212e07a8ccbcb36068d4425a3
+  WordPressMocks: 07695133f5af81f6e1d4a3354104bd8490342372
   WordPressShared: db94f749f546fdb5fcb48d38cd49fa8dff9596a4
   WordPressUI: 4a4adafd2b052e94e4846c0a0203761773dc4fd5
   WPMediaPicker: e5d28197da6b467d4e5975d64a49255977e39455
@@ -522,6 +527,6 @@ SPEC CHECKSUMS:
   ZendeskSDK: 99679d8420a6d862773e2ddef0ebcc51b282317d
   ZIPFoundation: 89df685c971926b0323087952320bdfee9f0b6ef
 
-PODFILE CHECKSUM: 60d9266abdf1deca35986d4c33489f721d0b246f
+PODFILE CHECKSUM: a2be4ae6638ec5b1f59feabdbd07bcb90088364a
 
 COCOAPODS: 1.8.4
