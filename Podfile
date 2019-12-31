@@ -34,12 +34,12 @@ end
 
 def wordpress_ui
     ## for production:
-    pod 'WordPressUI', '~> 1.5.0'
+    #pod 'WordPressUI', '~> 1.5.0'
 
     ## for development:
     #pod 'WordPressUI', :path => '../WordPressUI-iOS'
     ## while PR is in review:
-    #pod 'WordPressUI', :git => 'https://github.com/wordpress-mobile/WordPressUI-iOS', :branch => ''
+    pod 'WordPressUI', :git => 'https://github.com/wordpress-mobile/WordPressUI-iOS', :branch => 'add/fancy-alert-view-accessibility-identifiers'
 end
 
 def wordpress_kit

@@ -425,6 +425,9 @@ EXTERNAL SOURCES:
   RNTAztecView:
     :commit: 7de3ee5383648517ab0bc4d1ef9c0cefdb77d9a4
     :git: http://github.com/wordpress-mobile/gutenberg-mobile/
+  WordPressUI:
+    :branch: add/fancy-alert-view-accessibility-identifiers
+    :git: https://github.com/wordpress-mobile/WordPressUI-iOS
   yoga:
     :podspec: https://raw.githubusercontent.com/wordpress-mobile/gutenberg-mobile/7de3ee5383648517ab0bc4d1ef9c0cefdb77d9a4/react-native-gutenberg-bridge/third-party-podspecs/yoga.podspec.json
   ZendeskSDK:
@@ -441,6 +444,9 @@ CHECKOUT OPTIONS:
   RNTAztecView:
     :commit: 7de3ee5383648517ab0bc4d1ef9c0cefdb77d9a4
     :git: http://github.com/wordpress-mobile/gutenberg-mobile/
+  WordPressUI:
+    :commit: 1d601e1d4e3ef775823a453d4a6ff2024232e81f
+    :git: https://github.com/wordpress-mobile/WordPressUI-iOS
   ZendeskSDK:
     :git: https://github.com/zendesk/zendesk_sdk_ios
     :tag: 4.0.0
